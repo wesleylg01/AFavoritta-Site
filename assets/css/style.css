@@ -691,6 +691,7 @@ section {
 
 .section-title {
   padding-bottom: 40px;
+  font-family: "Poppins", sans-serif;
 }
 
 .section-title h2 {
@@ -971,7 +972,9 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -1792,4 +1795,26 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+.text-center-menu a{
+  background-color: #d3af71;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  color: #000;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 50px;
+  text-transform: none;
+  border-radius: 12px 12px 12px 12px;
+}
+
+.text-center-menu a:hover{
+  background-color: #d3af71ce;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.address {
+  padding: 10px;
 }
